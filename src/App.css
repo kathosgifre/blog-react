@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+	padding:0;
+}
+
+html,
+body {
+	font-size: 18px;
+	background: #0f0c29; 
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	background-attachment: fixed; 
+}
+img{
+	width: 250px;
+	height: 250px;
+}
+h1{
+	font-size: 45px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+	font-weight: bold;
+	line-height: 1.1;
+	text-align: center;
+	padding: 100px;
+}
+
+.App{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contain-main{
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center
+}
+.contain-text-blog{
+	text-align: center;
+	padding: 40px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+.name-blog{
+	font-size: 1.3rem;
+}
+span{
+	font-weight: bold;
+}
+
+.position-blog{
+	font-size: 1.3rem;
+	margin-top: 15px;
+	padding-bottom: 30px;
+}
+
+.text-blog{
+	font-size: 1.1rem;
+	text-align: justify;
+}
+@media (max-width: 700px){
+  html,
+	body {
+	font-size: 10px;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	background-attachment: fixed;
+	}
+	h1{
+	font-size: 2em;
+	}
+	.App{
+		width: auto;
+		height: auto;
+	}
+	.contain-main{
+		width: auto;
+		height: auto;
+	}
+	img{
+		width: 150px;
+		height: 150px;
+	}
+	.text-blog{
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+@media (max-width: 350px){
+	body,
+	html{
+		background-image: linear-gradient(to right, #344e64 0%, #1bd5df 100%);
+		background-attachment: fixed;
+	}
+	h1{
+		font-size: 1.5em;
+	}		
+	img{
+		width: 100px;
+		height: 100px;
+}
+}
