@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/blog-react/static/css/main.c0e65e6e.css",
+    "main.js": "/github.io/blog-react/static/js/main.1f425957.js",
+    "static/media/blog-python.jpg": "/github.io/blog-react/static/media/blog-python.34440002db6ddffe01be.jpg",
+    "static/media/blog-java.jpg": "/github.io/blog-react/static/media/blog-java.5f782770b5861cde1ba2.jpg",
+    "static/media/blog-c++.jpg": "/github.io/blog-react/static/media/blog-c++.cf667a3eeaabd3e392ce.jpg",
+    "static/media/blog-csharp.jpg": "/github.io/blog-react/static/media/blog-csharp.43d9aa26d98ac7fe1429.jpg",
+    "static/media/blog-C.jpg": "/github.io/blog-react/static/media/blog-C.3216dd843a997943299d.jpg",
+    "static/media/blog-javascripts.jpg": "/github.io/blog-react/static/media/blog-javascripts.d1179602d1a9de1bd7fc.jpg",
+    "static/media/blog-php.jpg": "/github.io/blog-react/static/media/blog-php.ebdd1b162473e33ce6ce.jpg",
+    "static/media/blog-visual.jpg": "/github.io/blog-react/static/media/blog-visual.1c98fd722ec9cf198c3b.jpg",
+    "index.html": "/github.io/blog-react/index.html",
+    "main.c0e65e6e.css.map": "/github.io/blog-react/static/css/main.c0e65e6e.css.map",
+    "main.1f425957.js.map": "/github.io/blog-react/static/js/main.1f425957.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e65e6e.css",
+    "static/js/main.1f425957.js"
+  ]
+}
